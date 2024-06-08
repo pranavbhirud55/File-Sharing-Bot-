@@ -11,35 +11,35 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "7303658758:AAEbQ_zrmt0SGurHgP2W6berLnwJN1DYeos"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "6708627355"
     },
-    "APP_ID":{
+    "APP_ID": {
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "29674380"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://jayeshkunal64:jayeshkunal64@cluster0.tnaquxy.mongodb.net/?retryWrites=true&w=majority"
     },
-    "DATABASE_NAME":{
+    "DATABASE_NAME": {
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "file-storage"
     },
-    "API_HASH":{
+    "API_HASH": {
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "9a73b874a8e0129ac9eb89e50e64ab9a"
     },
-    "CHANNEL_ID":{
+    "CHANNEL_ID": {
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1002182852306"
     },
-    "FORCE_SUB_CHANNEL":{
+    "FORCE_SUB_CHANNEL": {
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1002183430157"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -47,16 +47,15 @@
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "value": "Hello Bhai\n\nDekh Agar tuze videos dekhni hai to ye channel join karna padega"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
-      "required": false
+      "value": "5490584692"
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "False",
+      "value": "True",
       "required": false
     }
   },
@@ -72,4 +71,3 @@
     }
   }
 }
-
